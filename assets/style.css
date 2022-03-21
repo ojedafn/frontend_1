@@ -1,0 +1,62 @@
+
+
+.titulos{
+    color: #005677;
+    background-color:#C4C4C4;
+    font-family:Times New Roman ;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.3rem;
+    margin: auto;
+    padding: 5px 5px 5px 20px;
+    text-transform: uppercase;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+    font-family: Times New Roman;
+    padding-left: 20px;
+
+}
+
+.simple{
+    font-weight: normal;
+    font-family: Times New Roman;
+    font-style: normal;
+
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.div1{
+    margin-bottom: 80px;;
+}
+
+header{
+    background-color: #E6E6E6 ;
+}
+.batman{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+body{
+    margin: auto;
+}
+
