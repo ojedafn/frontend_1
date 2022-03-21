@@ -1,10 +1,90 @@
-p{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body{
     font-family: roboto;
+    margin: auto;
 }
-nav{
-    background-image: url('https://picsum.photos/500/200');
-    background-repeat: no-repeat;
-    background-position: center;
+.navBlack{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.navBlack p{
+    padding-left: 10rem;
+    padding-top: 0.3rem;
+    margin: 0%;
+}
+
+.line ul{
+    display: flex;
+    margin: 0%;
+}
+.line ul li{
+    padding: 0.5rem;
+    list-style: none;
+}
+header{
+    background-color: #F0A83E;
+    height: 62px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.black{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+}
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 1rem;
+
+}
+.section{
+    font-size: 13px;
+    padding-top: 1rem;
+}
+.home{
+    background-image: url("./img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-size: cover;
-    height: 100px;
+    height: 409px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;    
+}
+.placer{
+    padding: 0.5rem;
+    text-align: center;
+    margin-right: 5rem;
+    margin-top: 4rem;
+   }
+.tittle{
+    background-color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 1rem;
+}
+.text{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button{
+    text-align: center;    
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.center{
+    text-align: center;
+}
+h4{
+    color: #F0A83E;
 }
