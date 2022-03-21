@@ -1,0 +1,10 @@
+p{
+    font-family: roboto;
+}
+nav{
+    background-image: url('https://picsum.photos/500/200');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+}
