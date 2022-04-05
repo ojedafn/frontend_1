@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: roboto;
+    margin: 0;
+}
+
+/*  nav     */
+.navBlack{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navBlack p{    
+    padding:10px 30px 10px 100px;
+    margin: 0%;
+}
+
+.line{
+    display: flex;
+    margin: 0%;
+}
+.line p{
+    padding: 10px 30px;
+    list-style: none;
+}
+.nav__burguer{
+    display: none;
+}
+/*    header     */
+header{
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.logo{
+    margin-left: 30px;
+}
+header img{    
+    height: 20px;
+}
+.logo__black{
+    color:  #3C2313;
+    font-weight: 700;
+    font-size: 40px;   
+}
+.logo__white{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/*   MAIN    */
+.banner{
+    background-image: url("./img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-size: cover;
+    height: 509px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.placer{
+    text-align: center;
+    margin-right: 5rem;
+}
+.tittle{
+    background-color: white;
+    border-radius: 5px;
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+    padding: 20px;
+    width: 365px;
+}
+button{
+    background-color: #F0A83E;
+    border-color: #F0A83E;
+    color: white;
+    height: 49px;
+    text-align: center;    
+    width: 141px;
+}
+
+/* PRODUCTOS */
+.products__list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.products__home{
+    margin-top: 50px;
+    text-align: center;
+}
+.text{
+    color: #3C2313;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0px;
+}
+h4{
+    color: #F0A83E;
+}
+a{
+    text-decoration: none;
+}
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+    .navBlack{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .nav__burguer{
+        display: inline-block;
+    }
+    header{
+        flex-wrap: nowrap;
+    }
+    button{
+        border: none ;
+    }
+
+    /* BANNER */
+    .banner{
+        align-items: center;
+        background-image: url("./img/Full\ 1.png");
+         background-size: cover;
+    }
+    .placer{
+        margin: 0px;
+    }
+    .section{
+        text-align: center;
+    }
+}
